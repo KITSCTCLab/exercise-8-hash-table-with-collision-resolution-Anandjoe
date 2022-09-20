@@ -28,4 +28,4 @@ for item in re.split('], |].', input_data):
   if len(data) > 1:
     insert(HashTable, int(data[0]), data[1])
 
-disp
+display_hash (HashTable)
